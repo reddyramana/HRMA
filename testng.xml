@@ -1,0 +1,9 @@
+<suite name="OrangeSuite" parallel="none">
+  <test name="TestFirefox">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+  	<class name="com.hrm.scripts.CreateEmployee"/>
+  	<class name="com.hrm.scripts.DeleteEmployee"/>
+    </classes>
+  </test>
+</suite>
